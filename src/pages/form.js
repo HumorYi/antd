@@ -3,7 +3,7 @@ import { Form, Input, Button } from 'antd'
 
 const FormItem = Form.Item
 const nameRules = { required: true, message: '请输⼊入姓名！' }
-const passworRules = { required: true, message: '请输⼊入密码！' }
+const passwordRules = { required: true, message: '请输⼊入密码！' }
 
 console.log(Component, useEffect)
 // class 组件
@@ -31,7 +31,7 @@ console.log(Component, useEffect)
             <Input placeholder="name input placeholder" />
           </FormItem>
 
-          <FormItem label="密码" name="password" rules={[passworRules]}>
+          <FormItem label="密码" name="password" rules={[passwordRules]}>
             <Input placeholder="password input placeholder" />
           </FormItem>
 
@@ -78,7 +78,7 @@ export default function AntdFormPage(props) {
         <Input placeholder="name input placeholder" />
       </FormItem>
 
-      <FormItem label="密码" name="password" rules={[passworRules]}>
+      <FormItem label="密码" name="password" rules={[passwordRules]}>
         <Input placeholder="password input placeholder" />
       </FormItem>
 
